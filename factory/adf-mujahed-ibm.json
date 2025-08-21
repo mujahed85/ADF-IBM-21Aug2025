@@ -1,0 +1,9 @@
+{
+	"name": "adf-mujahed-ibm",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "202ecd73-801e-4947-86a5-e6a652ab5e67",
+		"tenantId": "38d6d9fb-c85b-479a-a64a-3657ea5facb3"
+	}
+}
