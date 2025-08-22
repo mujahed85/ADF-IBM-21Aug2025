@@ -1,0 +1,47 @@
+{
+	"name": "DS_S3_Input",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AWS_S3",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "S3-SA"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AmazonS3Location",
+				"bucketName": "my-website-bucket-13",
+				"fileName": "iris.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "sepal.length",
+				"type": "String"
+			},
+			{
+				"name": "sepal.width",
+				"type": "String"
+			},
+			{
+				"name": "petal.length",
+				"type": "String"
+			},
+			{
+				"name": "petal.width",
+				"type": "String"
+			},
+			{
+				"name": "variety",
+				"type": "String"
+			}
+		]
+	}
+}
