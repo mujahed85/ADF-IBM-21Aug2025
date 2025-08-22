@@ -1,0 +1,10 @@
+{
+	"name": "LS_AWS_S3_Keyvault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://ak-mujahed.vault.azure.net/"
+		}
+	}
+}
