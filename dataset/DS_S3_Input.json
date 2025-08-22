@@ -1,10 +1,6 @@
 {
 	"name": "DS_S3_Input",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "LS_AWS_S3",
-			"type": "LinkedServiceReference"
-		},
 		"folder": {
 			"name": "S3-SA"
 		},
